@@ -1,0 +1,16 @@
+body {
+  background-color: DarkOrange;
+  color: white;
+  font-family: monospace;
+  font-size: 35px;
+  text-align: center;
+}
+p {
+  margin: 100px;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: white;
+}
