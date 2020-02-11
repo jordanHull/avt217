@@ -6,9 +6,13 @@ h1 {
   text-align: center;
   text-decoration: underline;
 }
-h4 {
+.subtitle {
   text-align: center;
   font-size: 19px;
+}
+.container {
+  width: 800px;
+  margin: 100px auto;
 }
 p {
   font-size: 18px

@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: black;
+}
+/* Pattern 1 */
+.pattern-1 {
+ width: 130vw;
+ margin: -50px -10%;
+}
+.block-1, .block-2, .block-3 {
+  width: 100px;
+  height: 100px;
+  float: left;
+  border-radius: 50%;
+  border: 10px solid black;
+}
+.block-1 {
+  border-color: green;
+  margin: 25px;
+}
+.block-2 {
+  border-color: purple;
+  margin: -50px;
+}
+.block-3 {
+  border-color: orange;
+  margin: 25px;
+}
+/* Pattern 2 */
+.pattern-2 {
+  width: 130vw;
+}
+.block-4, .block-5 {
+  width: 100px;
+  height: 100px;
+  float: left;
+  border-radius: 0%;
+  border: 30px solid black;
+}
+.block-4 {
+  border-color: darkred;
+  margin: 150px;
+}
+.block-5 {
+  border-color: lightblue;
+  margin: 150px;
+}
