@@ -47,12 +47,9 @@ body {
   margin: 100px;
 }
 /* Pattern 3 */
-.pattern-3 {
-  width: 130vw;
-}
 .block-6 {
-  height: 94px;
-  width: 94px;
+  height: 91px;
+  width: 91px;
   float: left;
   border-top: 30px solid orange;
   border-left: 30px solid darkorange;
@@ -60,11 +57,75 @@ body {
   border-right: 30px solid indigo;
 }
 .block-7 {
-  height: 94px;
-  width: 94px;
+  height: 91px;
+  width: 91px;
+  float: right;
   border-top: 30px solid orange;
   border-left: 30px solid rebeccapurple;
   border-bottom: 30px solid indigo;
   border-right: 30px solid darkorange;
-
+}
+.block-8 {
+  height: 91px;
+  width: 91px;
+  float: left;
+  border-top: 30px solid rebeccapurple;
+  border-left: 30px solid darkorange;
+  border-bottom: 30px solid orange;
+  border-right: 30px solid indigo;
+}
+.block-9 {
+  height: 91px;
+  width: 91px;
+  float: right;
+  border-top: 30px solid indigo;
+  border-left: 30px solid rebeccapurple;
+  border-bottom: 30px solid orange;
+  border-right: 30px solid darkorange;
+}
+/* Pattern 4 */
+.block-10 {
+  width: 1476px;
+  float: left;
+  border-top: 30px solid mediumseagreen;
+  border-left: 30px solid rgb(156,255,217);
+  border-bottom: 30px solid lightgreen;
+  border-right: 30px solid rgb(156,255,217);
+}
+/* Pattern 5 */
+.block-11 {
+  height: 0px;
+  width: 0px;
+  float: left;
+  margin: 2px;
+  border-left: 60px solid transparent;
+  border-bottom: 60px solid darkred;
+  border-right: 60px solid transparent;
+}
+.block-12 {
+  height: 0px;
+  width: 0px;
+  float: left;
+  margin: 2px;
+  border-top: 60px solid steelblue;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+}
+.block-13 {
+  height: 0px;
+  width: 0px;
+  float: left;
+  margin: 2px;
+  border-left: 60px solid transparent;
+  border-bottom: 60px solid gray;
+  border-right: 60px solid transparent;
+}
+.block-14 {
+  height: 0px;
+  width: 0px;
+  float: left;
+  margin: 2px;
+  border-top: 60px solid gray;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
 }
