@@ -1,16 +1,23 @@
 body {
-  background-color: DarkOrange;
+  background-color: darkorange;
   color: white;
   font-family: monospace;
-  font-size: 35px;
+  font-size: 40px;
   text-align: center;
 }
+h1 {
+  padding: 150px 100px 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 p {
-  margin: 100px;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 150px 100px 0;
+  line-height: 65px;
 }
 a {
   color: black;
+  transition: color 1s ease;
 }
 a:hover {
-  color: white;
+  color: rgb(35, 61, 122);
 }
