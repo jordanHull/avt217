@@ -34,7 +34,6 @@
 /* Blog Layout */
 .layout {
   width: 800px;
-  margin: 25px 50px;
 }
 .header, .body, .sidenote, .footnote {
   background-color: red;
@@ -57,4 +56,5 @@
 .footnote {
   width: 75%;
   height: 50px;
+  margin: 0 0 40px 0;
 }

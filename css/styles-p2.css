@@ -1,0 +1,68 @@
+/* Home Page */
+body {
+  background-color: DarkOrange;
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+  margin: 30px;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 35px;
+}
+a:hover {
+  color: white;
+}
+ul {
+  list-style: none;
+  line-height: 50px;
+}
+img {
+  float: left;
+  margin: 0 20px 0 0;
+}
+.text {
+  font-size: 28px;
+  line-height: 28px;
+}
+/* Alien Hand */
+.hand-img {
+  max-width: 38%;
+}
+/* Amok */
+.amok-img {
+  max-width: 55%;
+}
+/* aphantasia */
+.aphantasia-img {
+  max-width: 50%;
+}
+/* boanthropy */
+.boanthropy-img {
+  max-width: 45%;
+}
+/* cold-urticaria */
+.cold-img {
+  max-width: 35%
+}
+/* cotard's */
+.cotards-img {
+  max-width: 50%;
+}
+/* exploding-head */
+.exploding-img {
+  max-width: 50%;
+}
+/* maladi */
+.maladi-img {
+  max-width: 30%;
+}
+/* mirror-touch */
+.mirror-touch-img {
+  max-width: 30%;
+}
+/* wendigo */
+.wendigo-img {
+  max-width: 50%
+}
