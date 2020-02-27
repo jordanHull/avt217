@@ -28,7 +28,7 @@ img {
 }
 /* Alien Hand */
 .hand-img {
-  max-width: 38%;
+  max-width: 30%;
 }
 /* Amok */
 .amok-img {
@@ -44,11 +44,11 @@ img {
 }
 /* cold-urticaria */
 .cold-img {
-  max-width: 35%
+  max-width: 15%
 }
 /* cotard's */
 .cotards-img {
-  max-width: 50%;
+  max-width: 30%;
 }
 /* exploding-head */
 .exploding-img {
@@ -56,7 +56,7 @@ img {
 }
 /* maladi */
 .maladi-img {
-  max-width: 30%;
+  max-width: 20%;
 }
 /* mirror-touch */
 .mirror-touch-img {
