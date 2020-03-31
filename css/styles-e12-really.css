@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+.container {
+  width: 90vw;
+  margin: 150px auto;
+}
+.header {
+  width: 100%;
+  background-color: blue;
+  height: 100px;
+}
+.main-text {
+  width: 50%;
+  background-color: blue;
+  height: 100px;
+  margin: 30% 0 0 50%;
+}
+
+/* Media Query */
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: blue;
+  }
+  .container {
+    margin: 50px auto;
+  }
+  .main-text {
+    width: 100%;
+    margin: 20% 0 0 0;
+  }
+}

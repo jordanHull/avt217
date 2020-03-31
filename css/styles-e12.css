@@ -32,7 +32,7 @@
   font-weight: 400;
   font-style: italic;
   text-align: center;
-  margin: 0 600px 0 600px;
+  margin: 0 44% 0 44%;
 }
 .mainText1 {
   font-family: rockwell, sans-serif;
@@ -43,6 +43,12 @@
 }
 p {
   margin: 20px;
+}
+
+@media only screen and (max-width: 1046px) {
+  #topPara1 {
+    margin: 0 30% 0 30%;
+  }
 }
 /* Page 2 */
 #author2 {
@@ -79,13 +85,19 @@ p {
   font-weight: 400;
   font-style: normal;
   text-align: left;
-  margin-right: 1200px;
+  margin: 20px 80% 20px 20px;
 }
 .mainText2 {
   font-family: rockwell, sans-serif;
   font-weight: 400;
   font-style: normal;
   text-align: left;
+}
+
+@media only screen and (max-width: 968px) {
+  #topPara2 {
+    margin: 20px 60% 20px 20px;
+  }
 }
 /* Page 3 */
 #author3 {
