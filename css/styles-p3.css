@@ -34,10 +34,6 @@ ul {
   list-style: none;
   line-height: 50px;
 }
-/* img {
-  float: left;
-  margin: 0 20px 0 0;
-} */
 .text {
   font-size: 18px;
   line-height: 28px;
@@ -61,6 +57,9 @@ ul {
 .entry {
   float: left;
   margin-bottom: 80px;
+}
+.description {
+  float: left;
 }
 /* Alien Hand */
 .hand-img {
@@ -124,4 +123,8 @@ ul {
   max-width: 40%;
   float: left;
   margin-right: 20px;
+}
+/* Responsiveness */
+@media only screen and (max-width: 1024px) {
+
 }
