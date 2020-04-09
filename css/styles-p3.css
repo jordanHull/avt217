@@ -126,5 +126,45 @@ ul {
 }
 /* Responsiveness */
 @media only screen and (max-width: 1024px) {
-
+  h1 {
+    margin-bottom: 30px;
+  }
+  .subtitle {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .text {
+    font-size: 16px;
+  }
+  .hand-img {
+    max-width: 50%;
+  }
+  .mirror-touch-img {
+    max-width: 50%;
+  }
+  .aphantasia-img {
+    max-width: 55%;
+  }
+  .amok-img {
+    max-width: 50%;
+  }
+  .boanthropy-img {
+    max-width: 50%;
+  }
+  .cold-img {
+    max-width: 50%;
+  }
+  .cotards-img {
+    max-width: 55%;
+  }
+  .exploding-img {
+    max-width: 55%;
+  }
+  .maladi-img {
+    max-width: 45%;
+  }
+  .wendigo-img {
+    max-width: 45%;
+  }
 }
