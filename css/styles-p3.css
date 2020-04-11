@@ -4,7 +4,7 @@ body {
   color: black;
   font-family: monospace;
   font-size: 20px;
-  margin: 0 100px;
+  margin: 0 50px;
 }
 h1 {
   font-size: 70px;
@@ -167,4 +167,87 @@ ul {
   .wendigo-img {
     max-width: 45%;
   }
+}
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-size: 21px;
+  }
+  .title {
+    font-size: 27px;
+  }
+  .subtitle {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .text {
+    font-size: 16px;
+  }
+  .hand-img {
+    max-width: 55%;
+  }
+  .mirror-touch-img {
+    max-width: 55%;
+  }
+  .aphantasia-img {
+    max-width: 55%;
+  }
+  .amok-img {
+    max-width: 55%;
+  }
+  .boanthropy-img {
+    max-width: 55%;
+  }
+  .cold-img {
+    max-width: 55%;
+  }
+  .cotards-img {
+    max-width: 55%;
+  }
+  .exploding-img {
+    max-width: 55%;
+  }
+  .maladi-img {
+    max-width: 50%;
+  }
+  .wendigo-img {
+    max-width: 50%;
+  }
+  @media only screen and (max-width: 501px) {
+    h1 {
+      font-size: 32px;
+    }
+    h2 {
+      font-size: 18px;
+      margin-bottom: 0;
+    }
+    .title, .subtitle {
+      text-align: center;
+    }
+    .title {
+      font-size: 27px;
+    }
+    .subtitle {
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 10px;
+    }
+    .text {
+      font-size: 16px;
+    }
+    .hand-img, .mirror-touch-img, .cold-img, .maladi-img, .wendigo-img {
+      max-width: 95%;
+      float: center;
+      margin-right: 0;
+    }
+    .aphantasia-img, .amok-img, .boanthropy-img, .cotards-img,
+    .exploding-img {
+      max-width: 100%;
+      float: center;
+      margin-right: 0;
+    }
 }
