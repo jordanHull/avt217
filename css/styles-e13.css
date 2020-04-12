@@ -5,3 +5,7 @@ body {
   font-size: 20px;
   margin: 30px;
 }
+.the-answer {
+  max-width: 900px;
+  max-height: 900px;
+}
