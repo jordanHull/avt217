@@ -1,0 +1,22 @@
+body {
+  background-color: DarkOrange;
+  color: white;
+  font-family: monospace;
+  font-size: 35px;
+  margin: 30px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+ul {
+  list-style: none;
+}
+button {
+  font-family: monospace;
+  font-size: 20px;
+  background-color: white;
+}
