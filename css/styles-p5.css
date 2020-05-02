@@ -1,5 +1,5 @@
 body {
-  background-color: DarkOrange;
+  background-color: #FE938C;
   color: white;
   font-family: monospace;
   font-size: 35px;
@@ -17,6 +17,22 @@ ul {
 }
 button {
   font-family: monospace;
-  font-size: 20px;
+  font-size: 30px;
   background-color: white;
+  float: center;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  height: 200px;
+  position: relative;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
