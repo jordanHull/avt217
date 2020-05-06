@@ -24,6 +24,10 @@ button {
 h1 {
   text-align: center;
 }
+.picture {
+  border: 1px solid #FF0000;
+  position: relative;
+}
 .container {
   height: 200px;
   position: relative;
