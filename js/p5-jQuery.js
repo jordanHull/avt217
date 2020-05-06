@@ -17,10 +17,12 @@ function makeFruit() {
   fruitPic.setAttribute("src", randomVal);
   fruitPic.setAttribute("width", "350");
   fruitPic.setAttribute("height", "350");
+  // fruitPic.setAttribute("style", "left: 400;");
+  // fruitPic.setAttribute("style", "top: 400;");
   fruitPic.className="picture";
   document.body.appendChild(fruitPic);
-  document.getElementsByClassName("picture").style.left = randX;
-  document.getElementsByClassName("picture").style.top = randY;
+  // document.getElementsByClassName("picture").style.left = randX;
+  // document.getElementsByClassName("picture").style.top = randY;
 }
 // function removeFruit() {
 //   var element = document.getElementById("picture");

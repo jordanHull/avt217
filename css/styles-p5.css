@@ -25,8 +25,9 @@ h1 {
   text-align: center;
 }
 .picture {
-  border: 1px solid #FF0000;
   position: relative;
+  left: inherit;
+  top: inherit;
 }
 .container {
   height: 200px;
