@@ -9,16 +9,21 @@ var images = ["p5-pictures/fruit-1.png","p5-pictures/fruit-2.png","p5-pictures/f
 function makeFruit() {
   var random = getRandomInt(1, 24);
   var randomVal = images[random];
-  var docWidth = document.body.clientWidth;
-  var docHeight = document.body.clientHeight;
-  var randX = Math.floor(Math.random()*docWidth);
-  var randY = Math.floor(Math.random()*docHeight);
+  var docWidth = $(window).width();
+  var docHeight = $(window).height();
+  console.log(docWidth + ', ' + docHeight);
+  // var randX = Math.floor(Math.random()*docWidth);
+  // var randY = Math.floor(Math.random()*docHeight);
+  var randX = Math.abs((Math.floor(Math.random()*docWidth)) - 350);
+  var randY = Math.abs((Math.floor(Math.random()*docHeight)) - 350);
+  console.log(randX + ', ' + randY)
   var fruitPic= document.createElement("IMG");
   fruitPic.setAttribute("src", randomVal);
   fruitPic.setAttribute("width", "350");
   fruitPic.setAttribute("height", "350");
   // fruitPic.setAttribute("style", "left: 400;");
   // fruitPic.setAttribute("style", "top: 400;");
+  fruitPic.setAttribute("style", "top: " + randY + "px; left: " + randX + "px;");
   fruitPic.className="picture";
   document.body.appendChild(fruitPic);
   // document.getElementsByClassName("picture").style.left = randX;
