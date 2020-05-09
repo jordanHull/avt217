@@ -4,6 +4,7 @@ body {
   font-family: monospace;
   font-size: 35px;
   margin: 30px;
+  overflow: hidden;
 }
 a {
   color: black;
@@ -25,9 +26,10 @@ h1 {
   text-align: center;
 }
 .picture {
-  position: relative;
+  position: absolute;
   left: inherit;
   top: inherit;
+  z-index: -1;
 }
 .container {
   height: 200px;
