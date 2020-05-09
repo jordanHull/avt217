@@ -14,8 +14,8 @@ function makeFruit() {
   console.log(docWidth + ', ' + docHeight);
   // var randX = Math.floor(Math.random()*docWidth);
   // var randY = Math.floor(Math.random()*docHeight);
-  var randX = Math.abs((Math.floor(Math.random()*docWidth)) - 350);
-  var randY = Math.abs((Math.floor(Math.random()*docHeight)) - 350);
+  var randX = Math.abs((Math.floor(getRandomInt(350, docWidth))) - 350);
+  var randY = Math.abs((Math.floor(getRandomInt(404.5, docHeight))) - 350);
   console.log(randX + ', ' + randY)
   var fruitPic= document.createElement("IMG");
   fruitPic.setAttribute("src", randomVal);
